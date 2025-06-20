@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('https://github.com/Kosaladesh2002/Laptop_price_predictor/blob/main/13264408_5192479.jpg?raw=true') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    color: #fff;
+}
+
+.wrapper .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.form .inputfield {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.form .input,
+.form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000000;
+}
+
+.form .input::placeholder {
+    color: #b80303;
+}
+
+.form select option {
+    color: #000;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.check label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.check input {
+    margin-left: 5px;
+}
+
+.btn {
+    background: #00c6ff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #0072ff;
+}
+
+.result p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    color: #00ffb7;
+    font-weight: bold;
+}
